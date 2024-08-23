@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-raleway overflow-x-hidden text-black/80;
+  }
+
+  .container {
+    @apply max-w-[150rem] w-full px-4 lg:px-12 mx-auto;
+  }
+
+  h1 {
+    @apply text-5xl;
+  }
+  h2 {
+    @apply text-3xl lg:text-4xl;
+  }
+  h3 {
+    @apply text-2xl lg:text-3xl;
+  }
+  h4 {
+    @apply text-base font-medium lg:text-xl;
+  }
+  p {
+    @apply text-sm font-medium lg:text-base;
+  }
+
+  /* -----------------------------------HEADER---------------------------------------- */
+  .toggle__menu {
+    @apply grid items-end;
+  }
+  
+  .toggle__menu span{
+    @apply w-[2.5rem] bg-black h-1.5 block m-0.5;
+  }
+
+  .toggle__menu.open span {
+    @apply rotate-180 duration-500 rounded-md;
+  }
+
+    .toggle__menu.open span:first-child {
+    @apply  w-[1.4rem] justify-self-end rotate-[232deg];
+  }
+    .toggle__menu.open span:last-child {
+    @apply  w-[1.5rem] justify-self-end rotate-[315deg] duration-500;
+  }
+
+
+  /* -----------------------------------HEADER MOBILE---------------------------------- */
+  .header__desktop {
+    @apply  absolute duration-500 right-[-100%] w-full h-full justify-end;
+  }
+
+.header__desktop.open {
+    @apply right-0 overflow-y-hidden;
+  }
+
+
+
+  
+
+
+}
+
+@layer components {
+  .btn {
+    @apply bg-transparent py-3 px-9 border-transparent rounded-md duration-200;
+  }
+  .btn.bg-yelloww {
+    @apply bg-secondary;
+  }
+  .btn.bg-bluee {
+    @apply bg-tertiary hover:bg-fbHover;
+  }
+  .btn.bg-yelBorder {
+    @apply bg-secondary border hover:bg-primary border-black;
+  }
+}
