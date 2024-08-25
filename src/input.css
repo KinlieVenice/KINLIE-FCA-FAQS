@@ -109,7 +109,7 @@
 
   /* ------------------FOOTER--------------- */
   .footer__content--text p {
-    @apply leading-6;
+    @apply leading-7;
   }
 
   .footer__content--text a {
@@ -131,7 +131,7 @@
     @apply bg-secondary border hover:bg-primary border-black lg:bg-white lg:text-black;
   }
   .btn.bg-outlinee {
-    @apply bg-white text-black border-black border hover:bg-secondary;
+    @apply bg-white text-black border-primary border hover:bg-secondary hover:text-white;
   }
   .btn.bg-primaryy {
     @apply bg-primary hover:bg-secondary;

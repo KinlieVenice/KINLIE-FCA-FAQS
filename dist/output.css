@@ -656,7 +656,7 @@ a{
 /* ------------------FOOTER--------------- */
 
 .footer__content--text p{
-  line-height: 1.5rem;
+  line-height: 1.75rem;
 }
 
 .footer__content--text a:hover{
@@ -873,7 +873,7 @@ a{
 .btn.bg-outlinee{
   border-width: 1px;
   --tw-border-opacity: 1;
-  border-color: rgb(0 0 0 / var(--tw-border-opacity));
+  border-color: rgb(0 133 66 / var(--tw-border-opacity));
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
   --tw-text-opacity: 1;
@@ -883,6 +883,8 @@ a{
 .btn.bg-outlinee:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(218 166 37 / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .btn.bg-primaryy{
@@ -961,10 +963,6 @@ a{
 
 .justify-between{
   justify-content: space-between;
-}
-
-.gap-10{
-  gap: 2.5rem;
 }
 
 .gap-2{
@@ -1168,6 +1166,10 @@ a{
 
   .lg\:gap-0{
     gap: 0px;
+  }
+
+  .lg\:gap-10{
+    gap: 2.5rem;
   }
 
   .lg\:gap-2{
