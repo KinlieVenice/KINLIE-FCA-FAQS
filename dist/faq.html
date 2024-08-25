@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Frontline Christian Academy - FAQs</title>
+    <title>Frontline Christian Academy</title>
     <link rel="icon" href="../img/icon.png" />
     <link rel="stylesheet" href="./output.css" />
     <link
@@ -13,43 +13,473 @@
   </head>
   <body>
     <!-- header -->
-
     <header class="header">
       <div class="container">
         <div class="header__wrapper">
-          <div class="header__mobile flex justify-between items-center border-b border-black py-1.5">
-            <img src="../img/fca-logo.webp" class="h-[5rem]" alt="" />
-            <div
-              class="toggle__menu lg:hidden active cursor-pointer duration-500 grid justify-start"
-            >
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
+          <div
+            class="header__mobile py-[8.5px] lg:py-[0.5rem] mb-5 lg:absolute flex justify-between items-center border-b border-black lg:border-0"
+          >
+            <img
+              src="../img/fca-logo.webp"
+              class="w-[200px] h-[77.25px]"
+              alt=""
+            />
+            <ul class="toggle__menu lg:hidden">
+              <span></span
+              ><span></span
+              ><span></span>
+            </ul>
           </div>
           <div
-            class="header__desktop text-center flex flex-col-reverse gap-6  pt-5"
+            class="header__desktop absolute flex flex-col-reverse text-center gap-5 right-[-100%] lg:right-0 lg:static lg:flex-col lg:gap-2 bg-white"
           >
-            <ul class="header__info flex flex-col gap-6">
-              <li>(049) 521-0732</li>
-              <li>(+63) 908-202-0749 | (+63) 926-363-9722</li>
-              <li><a class="btn bg-bluee" href="">Facebook</a></li>
-              <li><a class="btn bg-yelBorder" href="">FAQ's</a></li>
-            </ul>
-            <ul class="header__nav flex flex-col gap-6">
+            <div
+              class="header__top lg:flex justify-between lg:py-[24px] lg:items-center lg:border-b lg:border-black"
+            >
+              <span class="hidden lg:block"></span>
+              <ul
+                class="header__info flex flex-col gap-5 items-center lg:flex-row ld:flex-row"
+              >
+                <li><i class="fa-solid fa-phone"></i>&nbsp; (049) 521-0732</li>
+                <li>
+                  <i class="fa-solid fa-mobile-retro"></i>&nbsp; (+63)
+                  908-202-0749 | (+63) 926-363-9722
+                </li>
+                <li><a class="btn bg-bluee block" href="">Facebook</a></li>
+                <li><a class="btn bg-yelBorder block" href="">FAQ's</a></li>
+              </ul>
+            </div>
+            <ul
+              class="header__nav self-center flex flex-col gap-5 lg:flex-row lg:w-full lg:gap-0"
+            >
               <li><a href="">HOME</a></li>
               <li><a href="">ABOUT</a></li>
               <li><a href="">ADMISSION</a></li>
               <li><a href="">SERVICES</a></li>
               <li><a href="">GALLERY</a></li>
               <li><a href="">CONTACT</a></li>
-              <li><a class="btn bg-yelloww" href="">GIVE</a></li>
+              <li><a class="btn bg-yelloww block" href="">GIVE</a></li>
             </ul>
           </div>
         </div>
       </div>
     </header>
+
+    <!-- FAQS -->
+    <section class="faqs lg:py-[130px] py-[29px]">
+      <div class="container">
+        <div class="faqs__wrapper">
+          <h1
+            class="text-[2.5rem] font-thin text-center lg:pb-[8rem] lg:text-[5rem]"
+          >
+            Frequently Asked Questions
+          </h1>
+          <div class="faqs__card lg:grid lg:grid-cols-[1fr_3fr] lg:items-start">
+            <div
+              class="faqs__tab text-center lg:text-start py-20 grid gap-3 lg:gap-2 lg:pt-0"
+            >
+              <p class="text-xl text-black/50 active" id="tab-1">
+                <a class="">About Our School</a>
+              </p>
+              <p class="text-xl text-black/50" id="tab-2">
+                <a class="">Excellent Learning and Facilities</a>
+              </p>
+              <p class="text-xl text-black/50" id="tab-3">
+                <a class="">Job Opportunities</a>
+              </p>
+            </div>
+            <div class="faqs__accordion active" id="tab-1-card">
+              <div class="faqs__item">
+                <h2 class="mb-10">About Our School</h2>
+                <div class="faqs__item--content">
+                  <h4
+                    class="py-1 bg-backg px-4 grid grid-cols-[auto_4fr_auto] gap-2 items-center justify-end"
+                  >
+                    <span class="text-2xl text-primary">Q:</span>&nbsp; What
+                    makes you different?<i
+                      class="fa-solid fa-chevron-down text-xl"
+                    ></i>
+                  </h4>
+                  <p class="ps-[3rem] pe-4 bg-backg text-justify mb-4">
+                    <i class="fa-solid fa-circle text-primary"></i>&nbsp;One of
+                    our key focus areas is Social Emotional Learning (in
+                    partnership with a US Youth Leadership organization:
+                    “Growing Leaders”), mentoring, and leadership development.
+                    We believe this is something that our young people need,
+                    especially in such challenging and unprecedented global
+                    times.<br /><i class="fa-solid fa-circle text-primary"></i
+                    >&nbsp;We also prioritize the holistic development and
+                    wellbeing of our students, their families, and our staff and
+                    faculty, providing periodic group counseling sessions for
+                    parents and students with a PRC-registered Guidance
+                    Counselor. We provide genuinely caring support for families,
+                    and host monthly Parenting Peer Groups (PPGs), which are
+                    gatherings (online/virtual if in-person is not possible) of
+                    small groups of parents to provide moral support and
+                    academic support to one another. <br /><i
+                      class="fa-solid fa-circle text-primary"
+                    ></i
+                    >&nbsp;FCA accepts students from diverse backgrounds,
+                    religions, and walks of life. Our primary language used for
+                    teaching and communication is the English language, except
+                    for the subjects of Filipino, Araling Panlipunan, and
+                    certain topics under Home Economics and Livelihood
+                    Education/Technology and Livelihood Education.
+                  </p>
+                  <h4
+                    class="py-1 bg-backg px-4 grid grid-cols-[auto_4fr_auto] gap-2 items-center justify-end"
+                  >
+                    <span class="text-2xl text-primary">Q:</span>&nbsp; What are
+                    your Core Values?<i
+                      class="fa-solid fa-chevron-down text-xl"
+                    ></i>
+                  </h4>
+                  <p class="ps-[3rem] pe-4 bg-backg text-justify mb-4">
+                    <i class="fa-solid fa-circle text-primary"></i
+                    >&nbsp;Christ-centeredness: We regard the Bible as the
+                    highest authority on morality and spirituality. Our
+                    curriculum is Bible-based and our desire is that all who
+                    enter the doors of FCA will be impacted to become more
+                    Christ-like.<br /><i
+                      class="fa-solid fa-circle text-primary"
+                    ></i
+                    >&nbsp;Genuine Care and Love for People: The Scriptures
+                    command us to "...love the Lord your God with all your
+                    heart, and with all your soul, and with all your mind," and
+                    to “love your neighbor as yourself.” We genuinely love and
+                    care for each other, our students, and their families, our
+                    donors, partners, and all stakeholders… and desire for them
+                    to walk in the fullness of the promise of abundant life.
+                    This desire drives us to pursue exceptional customer service
+                    and high client satisfaction. We also genuinely love and
+                    care for our employees. We aim to be a fun and meaningful
+                    place to work, and to provide a conducive environment that
+                    encourages collaboration of all stakeholders.<br /><i
+                      class="fa-solid fa-circle text-primary"
+                    ></i
+                    >&nbsp;Academic excellence - We desire to produce learners
+                    who are academically competent, able to be globally
+                    competitive, and who are critical, strategic thinkers.
+                    <br />
+                    <i class="fa-solid fa-circle text-primary"></i
+                    >&nbsp;Leadership with Integrity - We desire to be a school
+                    that influences its people to become leaders of integrity –
+                    individuals who are honest, consistent, trustworthy, and
+                    governed by a moral compass.
+                  </p>
+                  <h4
+                    class="py-1 bg-backg px-4 grid grid-cols-[auto_4fr_auto] gap-2 items-center justify-end"
+                  >
+                    <span class="text-2xl text-primary">Q:</span>&nbsp; What are
+                    the fees?<i class="fa-solid fa-chevron-down text-xl"></i>
+                  </h4>
+                  <p class="ps-[3rem] pe-4 bg-backg text-justify mb-4">
+                    <i class="fa-solid fa-circle text-primary"></i>&nbsp;Tuition
+                    Fees for Pre-Elementary range from ₱54,000-₱55,000<br /><i
+                      class="fa-solid fa-circle text-primary"
+                    ></i
+                    >&nbsp;Tuition Fees for Elementary range from
+                    ₱57,000-₱58,000<br /><i
+                      class="fa-solid fa-circle text-primary"
+                    ></i
+                    >&nbsp; Tuition Fees for Junior Highschool range from
+                    ₱57,000-₱59,000<br />Payment schemes are flexible –
+                    installment plans are available. <br />You can contact our
+                    finance office for special arrangements or plans. <br />We
+                    accommodate online payments, bank transfers, gcash, and
+                    credit/debit cards via online payment links. <br />
+                  </p>
+                  <h4
+                    class="py-1 bg-backg px-4 grid grid-cols-[auto_4fr_auto] gap-2 items-center justify-end"
+                  >
+                    <span class="text-2xl text-primary">Q:</span>&nbsp; Do you
+                    have any promotions or discounts?<i
+                      class="fa-solid fa-chevron-down text-xl"
+                    ></i>
+                  </h4>
+                  <p class="ps-[3rem] pe-4 bg-backg text-justify mb-4">
+                    <i class="fa-solid fa-circle text-primary"></i>&nbsp;Yes, we
+                    do. Click <a class="text-primary" href="">here</a>
+                  </p>
+                  <h4
+                    class="py-1 bg-backg px-4 grid grid-cols-[auto_4fr_auto] gap-2 items-center justify-end"
+                  >
+                    <span class="text-2xl text-primary">Q:</span>&nbsp; When do
+                    classes start for SY 2024-2025?<i
+                      class="fa-solid fa-chevron-down text-xl"
+                    ></i>
+                  </h4>
+                  <p class="ps-[3rem] pe-4 bg-backg text-justify mb-4">
+                    <i class="fa-solid fa-circle text-primary"></i>&nbsp;The
+                    tentative date is August 12, 2024.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="faqs__accordion" id="tab-2-card">
+              <div class="faqs__item">
+                <h2 class="mb-10">Excellent Learning and Facilities</h2>
+                <div class="faqs__item--content">
+                  <h4
+                    class="py-1 bg-backg px-4 grid grid-cols-[auto_4fr_auto] gap-2 items-center justify-end"
+                  >
+                    <span class="text-2xl text-primary">Q:</span>&nbsp; What
+                    curriculum, books, and learning platform do you use?
+                    <i class="fa-solid fa-chevron-down text-xl"></i>
+                  </h4>
+                  <p class="ps-[3rem] pe-4 bg-backg text-justify mb-4">
+                    <i class="fa-solid fa-circle text-primary"></i>&nbsp;FCA
+                    follows the K-12 Curriculum of the Department of Education,
+                    and integrates its core values. Many of our books are
+                    shipped from the USA, and modules are also printed by the
+                    school. FCA does its best to not overload its students; the
+                    amount of work assigned is very doable, as long as the
+                    student can focus during class times and is given support by
+                    his/her family. For assigning online tasks, FCA uses Google
+                    Classroom, and the Google Suite for Education. Click
+                    <a class="text-primary" href="">here</a> for a quick
+                    introduction and tutorial.
+                  </p>
+                  <h4
+                    class="py-1 bg-backg px-4 grid grid-cols-[auto_4fr_auto] gap-2 items-center justify-end"
+                  >
+                    <span class="text-2xl text-primary">Q:</span>&nbsp; How do
+                    you keep classes interesting and meaningful?<i
+                      class="fa-solid fa-chevron-down text-xl"
+                    ></i>
+                  </h4>
+                  <p class="ps-[3rem] pe-4 bg-backg text-justify mb-4">
+                    <i class="fa-solid fa-circle text-primary"></i>&nbsp;We
+                    acknowledge that most of today’s students are visual
+                    learners. We make use of fun videos, colorful slides, and
+                    other interesting resources and do our best to keep students
+                    engaged. Our teachers are skilled, and attend regular
+                    training and seminars to keep their teaching strategies
+                    relevant and effective. Check out our website to see photos.
+                  </p>
+                  <h4
+                    class="py-1 bg-backg px-4 grid grid-cols-[auto_4fr_auto] gap-2 items-center justify-end"
+                  >
+                    <span class="text-2xl text-primary">Q:</span>&nbsp; Do new
+                    students need to take any entrance exams?<i
+                      class="fa-solid fa-chevron-down text-xl"
+                    ></i>
+                  </h4>
+                  <p class="ps-[3rem] pe-4 bg-backg text-justify mb-4">
+                    <i class="fa-solid fa-circle text-primary"></i>&nbsp;Yes,
+                    and the exams depend on the student’s grade level. For
+                    Pre-Elementary levels, and Grades 1, 2, and 3, a basic
+                    reading and numeracy assessment is done by the Department
+                    supervisor. For Grades 4-10, there are the following:<br />
+                    <i class="fa-regular fa-circle">&nbsp;</i> Logic Exam (Can
+                    be sent and accomplished online)<br /><i
+                      class="fa-regular fa-circle"
+                    ></i
+                    >&nbsp; Basic Language and Math Skills (scheduled in-person
+                    or via 1-on-1 video call)<br /><i
+                      class="fa-regular fa-circle"
+                    ></i
+                    >&nbsp; Grit Scale (Can be sent and accomplished online.
+                    Grades 6-10 only)
+                  </p>
+                  <h4
+                    class="py-1 bg-backg px-4 grid grid-cols-[auto_4fr_auto] gap-2 items-center justify-end"
+                  >
+                    <span class="text-2xl text-primary">Q:</span>&nbsp; What
+                    learning modalities do you offer?<i
+                      class="fa-solid fa-chevron-down text-xl"
+                    ></i>
+                  </h4>
+                  <p class="ps-[3rem] pe-4 bg-backg text-justify mb-4">
+                    <i class="fa-solid fa-circle text-primary"></i>&nbsp;FCA
+                    offers Face-to-Face Classes, and is applying for a
+                    Homeschooling Program under DepEd.<br />
+                    <i class="fa-regular fa-circle"></i>&nbsp;Face-to-Face
+                    Classes for levels K-12 will be 3-4 days per week until
+                    October 21, 2022. Starting November 2022, mentioned levels
+                    will transition to 5-day in-person classes, in observance of
+                    DepEd Order No. 34, s. 2022.<br /><i
+                      class="fa-regular fa-circle"
+                    ></i
+                    >&nbsp; Homeschooling Program: Still under application.
+                  </p>
+                  <h4
+                    class="py-1 bg-backg px-4 grid grid-cols-[auto_4fr_auto] gap-2 items-center justify-end"
+                  >
+                    <span class="text-2xl text-primary">Q:</span>&nbsp; Do you
+                    accept students with special needs?<i
+                      class="fa-solid fa-chevron-down text-xl"
+                    ></i>
+                  </h4>
+                  <p class="ps-[3rem] pe-4 bg-backg text-justify mb-4">
+                    <i class="fa-solid fa-circle text-primary"></i>&nbsp;Yes, if
+                    the parent/guardian can provide a certificate, letter, or
+                    recommendation from the child’s behavioral psychologist that
+                    the student is recommended for attendance to a regular
+                    school.
+                  </p>
+                  <h4
+                    class="py-1 bg-backg px-4 grid grid-cols-[auto_4fr_auto] gap-2 items-center justify-end"
+                  >
+                    <span class="text-2xl text-primary">Q:</span>&nbsp; Do the
+                    students have to wear uniforms?<i
+                      class="fa-solid fa-chevron-down text-xl"
+                    ></i>
+                  </h4>
+                  <p class="ps-[3rem] pe-4 bg-backg text-justify mb-4">
+                    <i class="fa-solid fa-circle text-primary"></i>&nbsp;Yes,
+                    they will have to wear their uniforms.
+                  </p>
+                  <h4
+                    class="py-1 bg-backg px-4 grid grid-cols-[auto_4fr_auto] gap-2 items-center justify-end"
+                  >
+                    <span class="text-2xl text-primary">Q:</span>&nbsp; What do
+                    I need to do as a parent to prepare for this school year?<i
+                      class="fa-solid fa-chevron-down text-xl"
+                    ></i>
+                  </h4>
+                  <p class="ps-[3rem] pe-4 bg-backg text-justify mb-4">
+                    <i class="fa-regular fa-circle"></i>&nbsp;Click
+                    <a href="" class="text-primary">HERE</a> to view the needed
+                    school supplies per level
+                  </p>
+                  <h4
+                    class="py-1 bg-backg px-4 grid grid-cols-[auto_4fr_auto] gap-2 items-center justify-end"
+                  >
+                    <span class="text-2xl text-primary">Q:</span>&nbsp; Do you
+                    offer tutorials?<i
+                      class="fa-solid fa-chevron-down text-xl"
+                    ></i>
+                  </h4>
+                  <p class="ps-[3rem] pe-4 bg-backg text-justify mb-4">
+                    <i class="fa-solid fa-circle text-primary"></i>&nbsp;Yes, we
+                    do. Our academic head aligns students with available tutors.
+                    Tutorial rate is P150.00 per hour.
+                  </p>
+                  <h4
+                    class="py-1 bg-backg px-4 grid grid-cols-[auto_4fr_auto] gap-2 items-center justify-end"
+                  >
+                    <span class="text-2xl text-primary">Q:</span>&nbsp; Do you
+                    offer transportation services?<i
+                      class="fa-solid fa-chevron-down text-xl"
+                    ></i>
+                  </h4>
+                  <p class="ps-[3rem] pe-4 bg-backg text-justify mb-4">
+                    <i class="fa-regular fa-circle"></i>&nbsp;Yes. We have
+                    transportation
+                    <a
+                      class="text-primary"
+                      href="https://docs.google.com/document/d/1zrw9D_M-8JXl6yhN5uxqz-mubo74JM5KVJOy9qRVwKo/edit"
+                    >
+                      services</a
+                    >, and rates depend on the pick-up and drop-off locations.
+                    Click
+                    <a
+                      class="text-primary"
+                      href="https://docs.google.com/document/d/1uItY0diWaPXvArdAzS0R1qAqEnqPu-lkpJ412LVgSj8/edit?usp=sharing"
+                    >
+                      here </a
+                    >for current SY rates. <br />For any further questions,
+                    please contact us at the provided numbers or email address.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="faqs__accordion" id="tab-3-card">
+              <div class="faqs__item">
+                <h2 class="mb-10">Job Opportunities</h2>
+                <div class="faqs__item--content">
+                  <h4
+                    class="py-1 bg-backg px-4 grid grid-cols-[auto_4fr_auto] gap-2 items-center justify-end"
+                  >
+                    <span class="text-2xl text-primary">Q:</span>&nbsp; How to
+                    apply?
+                    <i class="fa-solid fa-chevron-down text-xl"></i>
+                  </h4>
+                  <p class="ps-[3rem] pe-4 bg-backg text-justify mb-4">
+                    Please send your CV to hrad@fca.edu.ph. We will review, and
+                    contact you as soon as possible. You may still send your CV
+                    even if there are no current job openings. Thank you!"
+                  </p>
+                  <h4
+                    class="py-1 bg-backg px-4 grid grid-cols-[auto_4fr_auto] gap-2 items-center justify-end"
+                  >
+                    <span class="text-2xl text-primary">Q:</span>&nbsp;
+                    Volunteer Opportunities?<i
+                      class="fa-solid fa-chevron-down text-xl"
+                    ></i>
+                  </h4>
+                  <p class="ps-[3rem] pe-4 bg-backg text-justify mb-4">
+                    <a class="text-primary">View PDF file</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer bg-backg py-8">
+      <div class="container">
+        <div class="footer__wrapper">
+          <div class="footer__content flex flex-col items-center pb-8 lg:flex-row lg:justify-between lg:items-start lg:pb-5 ">
+            <img
+              src="../img/fca-logo.webp"
+              class="w-[200px] h-[77.25px]"
+              alt=""
+            />
+            <div class="footer__content--text lg:flex gap-10 hidden lg:block">
+              <div class="footer__content--details">
+                <p class="font-bold">Admission</p>
+                <div>
+                  <p><a href="">Playschool</a></p>
+                  <p><a href="">Preschool</a></p>
+                  <p><a href="">Elementary</a></p>
+                  <p><a href="">Junior High</a></p>
+                </div>
+              </div>
+              <div class="footer__content--details">
+                <p class="font-bold">Other Offers</p>
+                <div>
+                  <p><a href="">Tutorial Services</a></p>
+                  <p><a href="">Arts</a></p>
+                  <p><a href="">Music Lessons</a></p>
+                  <p><a href="">Sports</a></p>
+                  <p><a href="">Transportation</a></p>
+                </div>
+              </div>
+              <div class="footer__content--details">
+                <p class="font-bold">Quicklinks</p>
+                <div>
+                  <p><a href="">Home</a></p>
+                  <p><a href="">About</a></p>
+                  <p><a href="">Admission</a></p>
+                  <p><a href="">Services</a></p>
+                  <p><a href="">Gallery</a></p>
+                  <p><a href="">Contact</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="grid gap-2 w-[200px] text-center">
+              <a href="" class="btn bg-primaryy">Give</a>
+              <a href="" class="btn bg-outlinee">FAQ's</a>
+            </div>
+          </div>
+          <div class="footer__copyright flex lg:flex-row lg:justify-between lg:items-start border-t border-black py-5 items-center flex-col-reverse gap-2">
+            <h6>© Frontline Christain Academy 2023</h6>
+            <div class="flex gap-4">
+              <h6>Follow us:</h6>
+              <i class="fa-brands fa-facebook text-3xl text-black/50"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
     <!-- script -->
-     <script src="../js/toggle_menu.js"></script>
+    <script src="../js/toggle_menu.js"></script>
+    <script src="../js/accordion.js"></script>
+    <script src="../js/tabs.js"></script>
   </body>
 </html>
