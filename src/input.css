@@ -128,7 +128,7 @@
     @apply bg-tertiary hover:bg-fbHover;
   }
   .btn.bg-yelBorder {
-    @apply bg-secondary border hover:bg-primary border-black lg:bg-white lg:text-black;
+    @apply bg-secondary border hover:bg-primary border-black lg:bg-white lg:text-black lg:hover:text-white;
   }
   .btn.bg-outlinee {
     @apply bg-white text-black border-primary border hover:bg-secondary hover:text-white;
