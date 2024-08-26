@@ -83,7 +83,7 @@
 
   .faqs__item h4 {
     @apply cursor-pointer;
-  }
+  } 
   .faqs__item--content p {
     @apply h-auto max-h-0 overflow-hidden duration-500;
   }
@@ -96,7 +96,7 @@
     @apply text-xl duration-500;
   }
   .faqs__item i.open {
-    @apply  rotate-180;
+    @apply  rotate-[-180deg];
   }
 
   .faqs__tab p.active {
