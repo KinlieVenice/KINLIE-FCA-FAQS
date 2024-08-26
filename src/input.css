@@ -38,22 +38,22 @@
 
   /* -----------------------------------HEADER---------------------------------------- */
   .toggle__menu {
-    @apply grid items-end;
+    @apply grid duration-500;
   }
 
   .toggle__menu span {
-    @apply w-[2.5rem] bg-black h-1.5 block m-0.5;
+    @apply w-[2.5rem] bg-black h-1.5 block m-0.5 duration-500;
   }
 
   .toggle__menu.open {
-    @apply rotate-[360deg] duration-700 translate-x-[4px];
+    @apply rotate-180;
   }
 
   .toggle__menu.open span:first-child {
-    @apply w-[1.4rem] h-[7px] justify-self-end rotate-[30deg] translate-y-[6px] rounded-md;
+    @apply w-[1.4rem] h-[7px]  rotate-[-30deg] translate-y-[6px] rounded-md;
   }
   .toggle__menu.open span:last-child {
-    @apply w-[1.4rem] h-[7px] justify-self-end rotate-[-30deg] translate-y-[-6px] duration-[400ms] rounded-md;
+    @apply w-[1.4rem] h-[7px]  rotate-[30deg] translate-y-[-6px] rounded-md;
   }
 
   .toggle__menu.open span:nth-child(2) {
