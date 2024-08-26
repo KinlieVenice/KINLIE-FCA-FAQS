@@ -635,12 +635,12 @@ a{
 .faqs__item i{
   font-size: 1.25rem;
   line-height: 1.75rem;
+  transition-duration: 500ms;
 }
 
 .faqs__item i.open{
   --tw-rotate: 180deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-  transition-duration: 500ms;
 }
 
 .faqs__tab p.active{

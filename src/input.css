@@ -93,10 +93,10 @@
   }
 
   .faqs__item i {
-    @apply text-xl;
+    @apply text-xl duration-500;
   }
   .faqs__item i.open {
-    @apply duration-500 rotate-180;
+    @apply  rotate-180;
   }
 
   .faqs__tab p.active {
