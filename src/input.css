@@ -23,7 +23,7 @@
     @apply text-xl lg:text-3xl;
   }
   h4 {
-    @apply text-[1.125rem] font-semibold leading-9 lg:leading-10;
+    @apply lg:text-[1.125rem] text-[1rem] font-semibold leading-9 lg:leading-10;
   }
   h6 {
     @apply text-[0.8rem];
@@ -45,19 +45,19 @@
     @apply w-[2.5rem] bg-black h-1.5 block m-0.5;
   }
 
-  .toggle__menu.open span {
-    @apply rotate-180 duration-500 rounded-md translate-x-[4px];
+  .toggle__menu.open {
+    @apply rotate-[360deg] duration-700 translate-x-[4px];
   }
 
   .toggle__menu.open span:first-child {
-    @apply w-[1.4rem] h-[9px] justify-self-end rotate-[232deg] translate-y-[6px];
+    @apply w-[1.4rem] h-[7px] justify-self-end rotate-[30deg] translate-y-[6px] rounded-md;
   }
   .toggle__menu.open span:last-child {
-    @apply w-[1.4rem] h-[9px] justify-self-end rotate-[315deg] translate-y-[-7px] duration-[400ms];
+    @apply w-[1.4rem] h-[7px] justify-self-end rotate-[-30deg] translate-y-[-6px] duration-[400ms] rounded-md;
   }
 
   .toggle__menu.open span:nth-child(2) {
-    @apply h-[9px];
+    @apply h-[7px] rounded-md;
   }
 
   /* -----------------------------------HEADER MOBILE---------------------------------- */
@@ -92,8 +92,11 @@
     @apply max-h-[50rem] py-8 duration-700;
   }
 
+  .faqs__item i {
+    @apply text-xl;
+  }
   .faqs__item i.open {
-    @apply rotate-180 duration-500;
+    @apply duration-500 rotate-180;
   }
 
   .faqs__tab p.active {
